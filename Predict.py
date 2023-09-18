@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import requests
 
 Embark = {
     "Southampton": {"Embarked_C": 0, "Embarked_Q": 0, "Embarked_S": 1},
