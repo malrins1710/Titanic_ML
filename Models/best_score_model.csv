@@ -1,0 +1,10 @@
+,model_name,level_1,accuracy_score
+0,AdaBoostClassifier,77,0.9090909090909091
+1,DecisionTreeClassifier,47,0.8818181818181818
+2,ExtraTreesClassifier,67,0.9090909090909091
+3,KNeighborsClassifier,27,0.8909090909090909
+4,LinearSVC,3,0.8545454545454545
+5,LogisticRegression,37,0.8545454545454545
+6,RandomForestClassifier,57,0.8909090909090909
+7,SVC,17,0.8818181818181818
+8,XGBClassifier,85,0.9090909090909091
