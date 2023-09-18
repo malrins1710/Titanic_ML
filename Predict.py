@@ -35,7 +35,7 @@ Position = {
 }
 
 def load_model():
-    with open(r'C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Models\model_RF.pkl', 'rb') as f:
+    with open(r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Models\model_RF.pkl", 'rb') as f:
         data = pickle.load(f)
     return data
 
@@ -80,6 +80,13 @@ def predict_from_model():
     # Fare
     selected_Fare = st.number_input("Nhập giá vé của hành khách", min_value= 8, max_value= 500, value= 8, step= 1)
     fare_df = pd.DataFrame({"Fare": [selected_Fare]})
+    with open(r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Models\Scaler\farescale.pkl", 'rb') as f:
+        fare_scaler = pickle.load(f)
+    
+    fare_scaled = fare_scaler.transform([[selected_Fare]])
+    fare_scaled = fare_scaled.ravel()
+    scaled_fare_df = pd.DataFrame({"Fare_scaled" : fare_scaled})
+    fare_df = pd.concat([fare_df, scaled_fare_df], axis= 1)
     st.write(fare_df)
     
     # Age
@@ -88,23 +95,50 @@ def predict_from_model():
         selected_Age = st.slider("Độ tuổi của hành khách", 0., 100.)
     else:
         selected_Age = st.number_input("Nhập độ tuổi của hành khách đó: ", min_value=0., max_value= 100., value= 1., step= 1.)
+    
+    with open(r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Models\Scaler\agescale.pkl", 'rb') as f:
+        age_scaler = pickle.load(f)
+        
+    age_scaled = age_scaler.transform([[selected_Age]])
+    age_scaled = age_scaled.ravel()
+    scaled_age_df = pd.DataFrame({"Age_scaled": age_scaled})
     age_df = pd.DataFrame({"Age": [selected_Age]})
+    age_df = pd.concat([age_df, scaled_age_df], axis= 1)
     st.write(age_df)
     
     # Title
     selected_Position = st.selectbox("Chức vụ", Position)
-    if selected_Position in Position:
-        position_values = Position[selected_Position]
-        title_df = pd.DataFrame(position_values, index= [0])
-        st.write(title_df)
+    position_values = Position[selected_Position]
+    title_df = pd.DataFrame(position_values, index= [0])
+    st.write(title_df)
+    
+    # Gộp các dataFrame lại với nhau tạo thành 1 dataFrame gốc
+    df = []
+    values = [title_df, sex_df, pclass_df, family_df, embarked_df, scaled_age_df, scaled_fare_df]
+    for value in values:
+        df.append(value)
+    
+    st.subheader("Tổng hợp dữ liệu")
+    merged_df = pd.concat(df, axis=1)
+    original_columns = ["Title_Mr", "Title_Mrs", "Title_Miss", "Title_Master", "Title_Others", "Sex", "Pclass", "Family_Cate_Single", "Family_Cate_Multiplayer", "Family_Cate_SuperMultiplayer", "Embarked_Q", "Embarked_S", "Embarked_C", "Age_scaled", "Fare_scaled"]
+    merged_df =merged_df.reindex(columns= original_columns)
+    st.write(merged_df)
     
     # tạo button để dự đoán
-    predict = st.button("Dự đoán", key= 'centered-button')
+    predict = st.button("Dự đoán")
 
     if predict:
-        X = np.array([[embarked_df, family_df, title_df, pclass_df, sex_df]])
+        X = merged_df.values
+        st.write(X)
         print(X)
-        pass
+        data = load_model()
+        model = data["model"]
+        prediction = model.predict(X)
+        if prediction == 1:
+            st.subheader(f"Khả năng là Sống sót!")
+        else:
+            st.subheader("Khả năng là Chết!")
+
         
     
         
