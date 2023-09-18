@@ -21,16 +21,16 @@ def load_data():
 
 @st.cache_resource
 def load_images():
-    EDA_1 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\EDA_1.png"
-    EDA_2 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\EDA_2.png"
-    EDA_3 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\EDA_3.png"
-    EDA_4 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\EDA_4.png"
-    EDA_5 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\EDA_5.png"
-    corrmap = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\CorrelationMap.png"
-    corrm = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\Correlation Matrix.png"
-    cfm = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\ConfusionMatrix.png"
-    accmodel = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\Accuracy_model.png"
-    fea_importances = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Báo cáo\Images\features_importances.png"
+    EDA_1 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\EDA_1.png"
+    EDA_2 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\EDA_2.png"
+    EDA_3 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\EDA_3.png"
+    EDA_4 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\EDA_4.png"
+    EDA_5 = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\EDA_5.png"
+    corrmap = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\CorrelationMap.png"
+    corrm = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\Correlation Matrix.png"
+    cfm = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\ConfusionMatrix.png"
+    accmodel = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\Accuracy_model.png"
+    fea_importances = r"C:\Users\trang\OneDrive\Máy tính\Đồ Án Môn\Chuyên Ngành Trí Tuệ Nhân Tạo\Datasets\Images\features_importances.png"
     return EDA_1, EDA_2, EDA_3, EDA_4, EDA_5, corrm, cfm, accmodel, corrmap, fea_importances
     
 # Chuyển đổi dữ liệu để thực hiện download data
