@@ -55,7 +55,7 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
   <img height=300 src="https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c" />
 </a>
   <a href="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499">
-    <img height=300 src="https://github.com/user-attachments/assets/8d8ce1b1-dab9-41ed-aa72-090f58edf7fa" />
+    <img height=100 src="https://github.com/user-attachments/assets/8d8ce1b1-dab9-41ed-aa72-090f58edf7fa" />
   </a>
 </div>
 ## Result
