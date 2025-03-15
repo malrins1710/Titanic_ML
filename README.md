@@ -49,10 +49,8 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 | DecisionTreeClassifier | 0.819658 | 0.033527 |
 * **Lựa chọn mô hình RandomForestClassifier và ta có confusion matrix đại diện**
 ![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c)
-Xây dựng bảng đánh giá phân loại:
-| Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
-| ------------- | ------------- | ------------- | ------------- |
-| 0 |	892 |	0 |	0 |
+![image](https://github.com/user-attachments/assets/8d8ce1b1-dab9-41ed-aa72-090f58edf7fa)
+
 ## Result
 | Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
 | ------------- | ------------- | ------------- | ------------- |
