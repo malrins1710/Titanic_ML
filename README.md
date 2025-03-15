@@ -15,15 +15,21 @@ Nhiệm vụ của bài toán là dự đoán khả năng sống sót dựa trê
 - **Fare**: Giá vé (Dữ liệu số rời rạc) <br/>
 - **Cabin**: Mã toa tàu của từng hành khách trên tàu <br/>
 - **Embarked**: Cảng đón hành khách S là Southampton (Anh), C là Cherbourg (Pháp), Q là Queenstown (Ireland) <br/>
-### Các thuộc tính dữ liệu của từng đặc trưng:
+### Các thuộc tính dữ liệu của từng biến (features):
 Dữ liệu Category (Nominal - Ordinal): Name, Sex, Embarked, Pclass (ordinal), Survived
 Dữ liệu Numeric (Continuouns - Discrete - TimeSeries): Age (continuouns), Fare (continuouns), SibSp, Parch
 Dữ liệu Mix types: Ticket, Cabin
-
+### Pie Chart
+Đại diện cho tỷ lệ cho thuộc tính con của Pclass, Sex và Embarked
 ![image](https://github.com/user-attachments/assets/fd4883ae-f2be-452f-9577-d42e54f7c881)
+### Bar Graphs
+So sánh giữa biến phụ thuộc so với các biến độc lập khác
 ![image](https://github.com/user-attachments/assets/394989c1-8e38-449d-813d-15d32b474b8e)
-
 ![image](https://github.com/user-attachments/assets/35a9a01f-9c7a-4137-8988-95a9d7d04faf)
+### Histograms
+Đại diện cho mật độ phân bố của độ tuổi của hành khách và giá vé tàu
+![image](https://github.com/user-attachments/assets/2a7cf2d8-137e-45c5-8d39-d38fb0e7b6c0)
+
 ![image](https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5)
 ![image](https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499)
 
