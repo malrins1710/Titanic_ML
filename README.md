@@ -50,14 +50,7 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 * **Lựa chọn mô hình RandomForestClassifier và ta có confusion matrix đại diện**
 ![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c)
 ![image](https://github.com/user-attachments/assets/8d8ce1b1-dab9-41ed-aa72-090f58edf7fa)
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5">
-  <img height=300 src="https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c" />
-</a>
-  <a href="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499">
-    <img height=100 src="https://github.com/user-attachments/assets/8d8ce1b1-dab9-41ed-aa72-090f58edf7fa" />
-  </a>
-</div>
+
 ## Result
 | Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
 | ------------- | ------------- | ------------- | ------------- |
