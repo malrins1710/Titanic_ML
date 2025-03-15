@@ -30,10 +30,10 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
 Đại diện cho mật độ phân bố của độ tuổi của hành khách và giá vé tàu <br/>
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 src="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5" />
+  <img height=400 src="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5" />
 </a>
   <a href="https://github.com/anuraghazra/convoychat">
-    <img height=200 src="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499" />
+    <img height=400 src="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499" />
   </a>
 </div>
 
