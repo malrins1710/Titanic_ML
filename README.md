@@ -49,18 +49,25 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 | DecisionTreeClassifier | 0.819658 | 0.033527 |
 * **Lựa chọn mô hình RandomForestClassifier và ta có confusion matrix đại diện**
 ![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c)
+       |      | precision |  recall | f1-score | support |
 
+       | Chết  |    0.87  |    0.95  |   0.91   |    58 |
+   | Sống sót   |   0.94   |  0.85   |  0.89   |    52 |
+| |
+  |  accuracy    |         |       |    0.90   |   110 |
+   macro avg   |   0.90  |   0.90  |   0.90   |   110 |
+weighted avg   |   0.90  |   0.90  |   0.90   |   110 |
 ## Result
-| PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
-| ------------- | ------------- | ------------- |
-0 |	892 |	0 |	0 |
-1	| 893 |	0 |	1 |
-2	| 894 |	0 |	0 |
-3	| 895 |	0 |	0 |
-4	| 896 |	1 |	1 |
-  | ... | ... | ... |
-416 |	1308 |	0 |	0 |
-417 | 1309 |	1	| 0 |
+Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
+| ------------- | ------------- | ------------- | ------------- |
+| 0 |	892 |	0 |	0 |
+| 1	| 893 |	0 |	1 |
+| 2	| 894 |	0 |	0 |
+| 3	| 895 |	0 |	0 |
+| 4	| 896 |	1 |	1 |
+| ... | ... | ... | ... |
+| 416 |	1308 |	0 |	0 |
+| 417 | 1309 |	1	| 0 |
 418 mẫu
 Trong đó có 99 mẫu **dự đoán sai**
 
