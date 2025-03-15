@@ -38,6 +38,7 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
 </div>
 
 ## Modeling and Evaluation
+Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cross-validation ta được:
 ![image](https://github.com/user-attachments/assets/f076d850-7845-4020-86b3-cd048db279aa)
 
 | Model  | Mean | Standard Deviation |
@@ -46,7 +47,7 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
 | RandomForestClassifier | 0.855188 | 0.019878 |
 | AdaBoostClassifier | 0.849675	| 0.026192 |
 | DecisionTreeClassifier | 0.819658 | 0.033527 |
-
+* **Lựa chọn mô hình RandomForestClassifier và ta có confusion matrix đại diện**
 ![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c)
 
 ## Result
@@ -60,8 +61,7 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
   | ... | ... | ... |
 416 |	1308 |	0 |	0 |
 417 | 1309 |	1	| 0 |
-| 418 mẫu |
-
-Trong đó có 99 mẫu dự đoán sai
+418 mẫu
+Trong đó có 99 mẫu **dự đoán sai**
 
 [Triển khai mô hình sử dụng Streamlit](https://drive.google.com/file/d/1X3q9Ne4P7tJhKXRQ6Ypt0AYVMr34c4-F/view?usp=drive_link)
