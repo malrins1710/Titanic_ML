@@ -52,6 +52,7 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 Xây dựng bảng đánh giá phân loại:
 | Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
 | ------------- | ------------- | ------------- | ------------- |
+| 0 |	892 |	0 |	0 |
 ## Result
 | Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
 | ------------- | ------------- | ------------- | ------------- |
