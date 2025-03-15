@@ -28,7 +28,7 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
 ![image](https://github.com/user-attachments/assets/35a9a01f-9c7a-4137-8988-95a9d7d04faf)
 ### Histograms
 Đại diện cho mật độ phân bố của độ tuổi của hành khách và giá vé tàu <br/>
-<div align="center" width="100%" height=400>
+<div align="center" width="50%" height=400>
   <a href="https://github.com/anuraghazra/github-readme-stats">
   <img src="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5" />
 </a>
