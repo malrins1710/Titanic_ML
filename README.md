@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/307596af-a4b1-4b9b-9e19-d835348be630)# Phân tích và dự báo khả năng sống sót của du khách trên tàu Titanic
+# Phân tích và dự báo khả năng sống sót của du khách trên tàu Titanic
 ## Introduction
 Từ khi sự kiện thảm họa đắm tàu 🚢[RMS Titanic](https://en.wikipedia.org/wiki/Sinking_of_the_Titanic) vào tháng 04 năm 1912, đã có rất nhiều phỏng đoán về nguyên nhân xảy ra đắm tàu, các cuộc khảo sát số người tử vong và sống sót là bao nhiêu?
 Nhiệm vụ của bài toán là dự đoán khả năng sống sót dựa trên lí lịch của du khách đó.
@@ -28,12 +28,12 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
 ![image](https://github.com/user-attachments/assets/35a9a01f-9c7a-4137-8988-95a9d7d04faf)
 ### Histograms
 Đại diện cho mật độ phân bố của độ tuổi của hành khách và giá vé tàu <br/>
-<div align="center">
+<div align="center" width="100%" height=400>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5" />
+  <img src="https://github.com/user-attachments/assets/2c0a17e9-aa0c-4862-9f01-b223e92ad2e5" />
 </a>
   <a href="https://github.com/anuraghazra/convoychat">
-    <img height=200 align="center" src="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499" />
+    <img src="https://github.com/user-attachments/assets/37be7c4a-1c27-4319-bacc-0c2b14b78499" />
   </a>
 </div>
 
