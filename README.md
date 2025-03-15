@@ -7,4 +7,4 @@ Nhiệm vụ của bài toán là dự đoán khả năng sống sót dựa trê
 ## Modeling
 
 ## Evaluation
-[!Results](https://drive.google.com/drive/u/1/folders/1XCYi32xFNrEJcUABh8GHHC-Rrn1ssDE5)
+[Results](https://drive.google.com/file/d/1X3q9Ne4P7tJhKXRQ6Ypt0AYVMr34c4-F/view?usp=drive_link)
