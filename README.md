@@ -56,6 +56,7 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 | accuracy  |         |       |    0.90   |   110 |
 | macro avg  |   0.90  |   0.90  |   0.90   |   110 |
 | weighted avg  |   0.90  |   0.90  |   0.90   |   110 |
+## Result
 | Sample | PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
 | ------------- | ------------- | ------------- | ------------- |
 | 0 |	892 |	0 |	0 |
