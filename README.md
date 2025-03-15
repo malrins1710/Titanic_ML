@@ -48,7 +48,6 @@ Sau các bước xử lý dữ liệu, chia dữ liệu theo phương pháp cros
 | AdaBoostClassifier | 0.849675	| 0.026192 |
 | DecisionTreeClassifier | 0.819658 | 0.033527 |
 * **Lựa chọn mô hình RandomForestClassifier và ta có confusion matrix đại diện**
-![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c) <br/>
 | ID | precision | recall | f1-score | support |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Chết  |    0.87  |    0.95  |   0.91   |  58 |
