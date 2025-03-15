@@ -37,8 +37,31 @@ So sánh giữa biến phụ thuộc so với các biến độc lập khác
   </a>
 </div>
 
-## Modeling
+## Modeling and Evaluation
+![image](https://github.com/user-attachments/assets/f076d850-7845-4020-86b3-cd048db279aa)
 
-## Evaluation
+| Model  | Mean | Standard Deviation |
+| ------------- | ------------- | ------------- |
+| XGBClassifier | 0.862452 | 0.021383 |
+| RandomForestClassifier | 0.855188 | 0.019878 |
+| AdaBoostClassifier | 0.849675	| 0.026192 |
+| DecisionTreeClassifier | 0.819658 | 0.033527 |
+
+![image](https://github.com/user-attachments/assets/6c140cc9-b4d0-4a72-9189-aef90732366c)
+
+## Result
+| PassengerId | Nhãn Dự Đoán | Nhãn Thực Tế |
+| ------------- | ------------- | ------------- |
+0 |	892 |	0 |	0 |
+1	| 893 |	0 |	1 |
+2	| 894 |	0 |	0 |
+3	| 895 |	0 |	0 |
+4	| 896 |	1 |	1 |
+  | ... | ... | ... |
+416 |	1308 |	0 |	0 |
+417 | 1309 |	1	| 0 |
+| 418 mẫu |
+
+Trong đó có 99 mẫu dự đoán sai
 
 [Triển khai mô hình sử dụng Streamlit](https://drive.google.com/file/d/1X3q9Ne4P7tJhKXRQ6Ypt0AYVMr34c4-F/view?usp=drive_link)
